@@ -14,6 +14,18 @@
 		EA2B99AA1FA39E600021803A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2B99A81FA39E600021803A /* LaunchScreen.storyboard */; };
 		EA2B99B51FA39E600021803A /* JapaneseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B99B41FA39E600021803A /* JapaneseAppTests.swift */; };
 		EA2B99C01FA39E600021803A /* JapaneseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B99BF1FA39E600021803A /* JapaneseAppUITests.swift */; };
+		EAB4ADDA1FAEBFFC008B9EE7 /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADCE1FAEBFFB008B9EE7 /* Instructor.swift */; };
+		EAB4ADDB1FAEBFFC008B9EE7 /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADCF1FAEBFFB008B9EE7 /* Kanji.swift */; };
+		EAB4ADDC1FAEBFFC008B9EE7 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD01FAEBFFB008B9EE7 /* Section.swift */; };
+		EAB4ADDD1FAEBFFC008B9EE7 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD11FAEBFFB008B9EE7 /* Student.swift */; };
+		EAB4ADDE1FAEBFFC008B9EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD21FAEBFFC008B9EE7 /* ViewController.swift */; };
+		EAB4ADDF1FAEBFFC008B9EE7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD31FAEBFFC008B9EE7 /* Deck.swift */; };
+		EAB4ADE01FAEBFFC008B9EE7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD41FAEBFFC008B9EE7 /* User.swift */; };
+		EAB4ADE11FAEBFFC008B9EE7 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD51FAEBFFC008B9EE7 /* Course.swift */; };
+		EAB4ADE21FAEBFFC008B9EE7 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD61FAEBFFC008B9EE7 /* Vocab.swift */; };
+		EAB4ADE31FAEBFFC008B9EE7 /* VocabDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD71FAEBFFC008B9EE7 /* VocabDeck.swift */; };
+		EAB4ADE41FAEBFFC008B9EE7 /* KanjiDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD81FAEBFFC008B9EE7 /* KanjiDeck.swift */; };
+		EAB4ADE51FAEBFFC008B9EE7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD91FAEBFFC008B9EE7 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		EA2B99BB1FA39E600021803A /* JapaneseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2B99BF1FA39E600021803A /* JapaneseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseAppUITests.swift; sourceTree = "<group>"; };
 		EA2B99C11FA39E600021803A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB4ADCE1FAEBFFB008B9EE7 /* Instructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
+		EAB4ADCF1FAEBFFB008B9EE7 /* Kanji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kanji.swift; sourceTree = "<group>"; };
+		EAB4ADD01FAEBFFB008B9EE7 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		EAB4ADD11FAEBFFB008B9EE7 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EAB4ADD21FAEBFFC008B9EE7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAB4ADD31FAEBFFC008B9EE7 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		EAB4ADD41FAEBFFC008B9EE7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAB4ADD51FAEBFFC008B9EE7 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		EAB4ADD61FAEBFFC008B9EE7 /* Vocab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
+		EAB4ADD71FAEBFFC008B9EE7 /* VocabDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabDeck.swift; sourceTree = "<group>"; };
+		EAB4ADD81FAEBFFC008B9EE7 /* KanjiDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiDeck.swift; sourceTree = "<group>"; };
+		EAB4ADD91FAEBFFC008B9EE7 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,18 @@
 		EA2B999E1FA39E600021803A /* JapaneseApp */ = {
 			isa = PBXGroup;
 			children = (
+				EAB4ADD91FAEBFFC008B9EE7 /* Note.swift */,
+				EAB4ADD61FAEBFFC008B9EE7 /* Vocab.swift */,
+				EAB4ADCF1FAEBFFB008B9EE7 /* Kanji.swift */,
+				EAB4ADD31FAEBFFC008B9EE7 /* Deck.swift */,
+				EAB4ADD71FAEBFFC008B9EE7 /* VocabDeck.swift */,
+				EAB4ADD81FAEBFFC008B9EE7 /* KanjiDeck.swift */,
+				EAB4ADD41FAEBFFC008B9EE7 /* User.swift */,
+				EAB4ADD11FAEBFFB008B9EE7 /* Student.swift */,
+				EAB4ADCE1FAEBFFB008B9EE7 /* Instructor.swift */,
+				EAB4ADD51FAEBFFC008B9EE7 /* Course.swift */,
+				EAB4ADD01FAEBFFB008B9EE7 /* Section.swift */,
+				EAB4ADD21FAEBFFC008B9EE7 /* ViewController.swift */,
 				EA2B999F1FA39E600021803A /* AppDelegate.swift */,
 				EA2B99A11FA39E600021803A /* ViewController.swift */,
 				EA2B99A31FA39E600021803A /* Main.storyboard */,
@@ -259,8 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB4ADDC1FAEBFFC008B9EE7 /* Section.swift in Sources */,
+				EAB4ADE21FAEBFFC008B9EE7 /* Vocab.swift in Sources */,
+				EAB4ADDD1FAEBFFC008B9EE7 /* Student.swift in Sources */,
+				EAB4ADE11FAEBFFC008B9EE7 /* Course.swift in Sources */,
+				EAB4ADE31FAEBFFC008B9EE7 /* VocabDeck.swift in Sources */,
 				EA2B99A21FA39E600021803A /* ViewController.swift in Sources */,
+				EAB4ADDA1FAEBFFC008B9EE7 /* Instructor.swift in Sources */,
+				EAB4ADDF1FAEBFFC008B9EE7 /* Deck.swift in Sources */,
+				EAB4ADE01FAEBFFC008B9EE7 /* User.swift in Sources */,
+				EAB4ADE51FAEBFFC008B9EE7 /* Note.swift in Sources */,
+				EAB4ADDE1FAEBFFC008B9EE7 /* ViewController.swift in Sources */,
+				EAB4ADE41FAEBFFC008B9EE7 /* KanjiDeck.swift in Sources */,
 				EA2B99A01FA39E600021803A /* AppDelegate.swift in Sources */,
+				EAB4ADDB1FAEBFFC008B9EE7 /* Kanji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
