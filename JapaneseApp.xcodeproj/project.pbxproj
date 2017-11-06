@@ -26,6 +26,7 @@
 		EAB4ADE31FAEBFFC008B9EE7 /* VocabDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD71FAEBFFC008B9EE7 /* VocabDeck.swift */; };
 		EAB4ADE41FAEBFFC008B9EE7 /* KanjiDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD81FAEBFFC008B9EE7 /* KanjiDeck.swift */; };
 		EAB4ADE51FAEBFFC008B9EE7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4ADD91FAEBFFC008B9EE7 /* Note.swift */; };
+		EAFAA29B1FAFF13E00889280 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAA29A1FAFF13E00889280 /* School.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		EAB4ADD71FAEBFFC008B9EE7 /* VocabDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabDeck.swift; sourceTree = "<group>"; };
 		EAB4ADD81FAEBFFC008B9EE7 /* KanjiDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiDeck.swift; sourceTree = "<group>"; };
 		EAB4ADD91FAEBFFC008B9EE7 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		EAFAA29A1FAFF13E00889280 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				EAB4ADD41FAEBFFC008B9EE7 /* User.swift */,
 				EAB4ADD11FAEBFFB008B9EE7 /* Student.swift */,
 				EAB4ADCE1FAEBFFB008B9EE7 /* Instructor.swift */,
+				EAFAA29A1FAFF13E00889280 /* School.swift */,
 				EAB4ADD51FAEBFFC008B9EE7 /* Course.swift */,
 				EAB4ADD01FAEBFFB008B9EE7 /* Section.swift */,
 				EAB4ADD21FAEBFFC008B9EE7 /* ViewController.swift */,
@@ -308,6 +311,7 @@
 				EAB4ADDE1FAEBFFC008B9EE7 /* ViewController.swift in Sources */,
 				EAB4ADE41FAEBFFC008B9EE7 /* KanjiDeck.swift in Sources */,
 				EA2B99A01FA39E600021803A /* AppDelegate.swift in Sources */,
+				EAFAA29B1FAFF13E00889280 /* School.swift in Sources */,
 				EAB4ADDB1FAEBFFC008B9EE7 /* Kanji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

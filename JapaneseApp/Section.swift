@@ -14,6 +14,26 @@ import Foundation
 */
 class Section: Hashable {
     
+    /// The section's label (A, G, etc.).
+    var label: String
+    
+    /// The section's instructors (stored in a Set because there can be more
+    /// than one).
+    var instructors: Set<Instructor>
+    
+    /// Initializes a section with a single instructor.
+    init(label: String, instructor: Instructor) {
+        self.label = label
+        instructors = Set()
+        instructors.insert(instructor)
+    }
+    
+    /// Initializes a section with a set of instructors.
+    init(label: String, instructors: Set<Instructor>) {
+        self.label = label
+        self.instructors = instructors
+    }
+    
     var hashValue: Int {
         return 0
     }
